@@ -1,0 +1,24 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Original and respondent-level processed microdata
+data/raw/
+data/processed/
+*.dta
+*.parquet
+
+# Generated working directories (selected publication figures live in assets/)
+outputs/
+config/
+src/
+docs/source_materials/
+
+# Local configuration and operating-system files
+.env
+.env.*
+.DS_Store
+Thumbs.db
