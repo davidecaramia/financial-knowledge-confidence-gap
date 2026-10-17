@@ -1,0 +1,12 @@
+# Analytical versions recorded in the submitted notebook and local validation.
+# Use Python 3.12 for the documented local environment.
+numpy==2.1.3
+pandas==2.2.3
+scipy==1.16.3
+statsmodels==0.15.0
+matplotlib==3.10.0
+pyarrow==23.0.1
+seaborn==0.13.2
+ipython==9.17.1
+# Notebook interface; not part of the statistical calculations.
+jupyterlab>=4,<5
